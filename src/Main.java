@@ -7,8 +7,9 @@ public class Main {
 
         if (replenishment > 1000) {
             bonus = replenishment / 100;
-        } else { bonus = 0;
+        } else {
+            bonus = 0;
         }
-        System.out.println("счет клиента:" + (start + replenishment + bonus) + "рублей" );
+        System.out.println("счет клиента:" + (start + replenishment + bonus) + "рублей");
     }
 }
